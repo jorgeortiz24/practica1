@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+/*imagen de la portada*/
+
+img {
+  width: 100%;
+  height: 380px;
+  border: 1px solid #000;
+  flex-wrap: wrap;
+}
+
+/*Barra de Navegacion*/
+
+.nav {
+  background-color: rgb(238, 241, 12);
+  display: flex;
+  justify-content: end;
+  padding-right: 40px;
+  padding: 8px 30px 8px 40px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  margin-bottom: 10px;
+  box-shadow: 0 0 15px;
+}
+.nav__ul {
+  margin: 0;
+  display: flex;
+  padding: 0;
+}
+.nav__item {
+  list-style: none;
+}
+
+.nav__link {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 0;
+  transition: 0.3s;
+}
+.nav__link:hover {
+  background-color: rgb(219, 156, 19);
+  border-radius: 30px;
+}
+
+.nav__link--registro:hover {
+  background-color: rgb(219, 156, 19);
+  border-radius: 30px;
+}
+
+.nav__link--registro {
+  background-color: rgb(226, 183, 43);
+  border-radius: 40px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 24px;
+  transition: 0.3s;
+  margin-right: 6px;
+}
+
+/*Cajas*/
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-left: 1.2%;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.bloques {
+  display: inline-block;
+  min-width: 100px;
+  max-width: 100%;
+  flex: 1;
+}
+.img2 {
+  height: 400px;
+  width: 450px;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #8a8888;
+  color: white;
+  text-align: center;
+}
+.footer:hover {
+  color: black;
+}
+.informacion a {
+  list-style: none;
+  color: rgb(238, 241, 12);
+  margin: 10px;
+  text-decoration: none;
+}
+.informacion a:hover {
+  color: rgb(16, 216, 199);
+}
+
+/*Catalogo*/
+.cat h2 {
+  text-align: center;
+  padding: 20px;
+  color: blue;
+}
+
+/*Categoria*/
+
+/*registro*/
